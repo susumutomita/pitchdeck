@@ -99,7 +99,7 @@ trust the rest of the deck.
 
 ## Works with any stack
 
-The skill reads source, tests, git history, and docs — language-agnostic. Tested shape: TypeScript / Node,
+The skill reads source, tests, Git history, and docs — language-agnostic. Tested shape: TypeScript / Node,
 Python, Go, Rust, AWS CDK / Terraform, and monorepos. If a brand exists in `landing/`, the deck reuses its
 palette and fonts; otherwise it falls back to a clean default.
 
