@@ -1,3 +1,6 @@
+# pitchdeck output (generated deck; full rebuild every run)
+.pitchdeck/
+
 # Logs
 logs
 *.log

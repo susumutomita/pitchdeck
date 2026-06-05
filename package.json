@@ -1,16 +1,26 @@
 {
-  "name": "typescript-template",
+  "name": "pitchdeck",
   "version": "1.0.0",
+  "description": "A Claude Code skill that turns your repository into a keynote-quality pitch deck — and refuses to overclaim. Verifies every capability against the code path (function + test + wiring), not the README, and labels each one 実証済 / 実装中 / 構想.",
+  "keywords": [
+    "claude-code",
+    "claude-code-skill",
+    "pitch-deck",
+    "slides",
+    "presentation",
+    "startup",
+    "demo-day",
+    "honest",
+    "ai"
+  ],
+  "homepage": "https://github.com/susumutomita/pitchdeck",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/susumutomita/pitchdeck.git"
+  },
   "author": "Susumu Tomita <oyster880@gmail.com>",
   "license": "MIT",
-  "workspaces": ["packages/*"],
   "scripts": {
-    "dev": "bun run --filter '*' dev",
-    "build": "bun run --filter '*' build",
-    "test": "bun run --filter '*' test",
-    "test:coverage": "bun run --filter '*' test:coverage",
-    "typecheck": "bun run --filter '*' typecheck",
-    "clean": "bun rimraf node_modules 'packages/*/node_modules' 'packages/*/dist' 'packages/*/coverage'",
     "lint": "bun biome check .",
     "lint:fix": "bun biome check --write .",
     "lint:text": "bun textlint ./README.md",
